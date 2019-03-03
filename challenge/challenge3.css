@@ -1,0 +1,20 @@
+.element {
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition: ease-in-out
+    float: left;
+    position: relative;
+}
+
+.element:hover {
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(100%, 0); 
+    }
+}

@@ -1,0 +1,20 @@
+img {
+    margin: 50px;
+    transition: transform 5s ease;
+}
+
+img:hover {
+    transform: scale(5);
+    transform: skew(200deg); 
+    transform: translate3d(20%, 50%, 100%);
+}
+
+/*what is transform means as value of transition?
+it means to make element transfrom in different ways smoothly and gradually 
+
+what is the difference between ease and ease-in-out in transition-timing-function?
+平滑斜线和有曲度斜线的区别
+
+transform is animation, how can they include each other?
+transform can be a property or a value????
+*/

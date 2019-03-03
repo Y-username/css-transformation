@@ -1,0 +1,8 @@
+img {
+    margin: 25px;
+    animation-name: rotating;
+}
+
+@keyframes rotating {
+    transform: rotate(360deg);
+}

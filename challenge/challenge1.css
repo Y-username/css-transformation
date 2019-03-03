@@ -1,0 +1,14 @@
+img {
+     margin: 50px;
+     transition-property: width, height;
+     transition-duration: 1s;
+     transition-timing-function: ease-in;
+}
+
+img:hover {
+    width: 200%;
+    height: 200%;
+}
+
+/*if i use width: 200%, it won't double the size, but make the width 200% of the screen 
+*/
